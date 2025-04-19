@@ -1,0 +1,26 @@
+
+---
+
+## 🚀 How to Run
+
+1. **Download or clone** this repository.
+2. Make sure the images (`image1.jpg`, `image2.jpg`, `image3.jpg`) are in the same folder.
+3. Open `index.html` in your browser.
+
+✅ You should see the interactive image gallery in action!
+
+---
+
+## 💡 Notes
+
+- This project uses **jQuery 3.6.0** via CDN.
+- You can replace the images with your own. Just make sure the filenames and extensions match.
+- You can customize the style in `gallery.css`.
+
+---
+
+## 🧑‍💻 Created by
+
+**Majd Khalid Alsahafi**  
+Software Engineering Student  
+University of Jeddah – CCSW321
