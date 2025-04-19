@@ -1,0 +1,72 @@
+/* 
+
+Description:
+This CSS file styles a simple image gallery with a dark theme. It includes styles for the body, 
+a gallery container, images within the gallery, and buttons for navigation or interaction.
+
+Styles:
+1. Body:
+    - Sets a dark background color (#111) with white text for contrast.
+    - Uses Arial or sans-serif font for text.
+    - Centers text and adds padding around the content.
+
+2. Gallery Container:
+    - Centers the gallery on the page with auto margins.
+    - Restricts the width to 80% of the viewport.
+
+3. Gallery Images:
+    - Limits image width to 80% and max height to 400px.
+    - Adds a border with a 3px solid line (#555) and rounded corners (10px radius).
+    - Hides all images by default using `display: none`.
+
+4. Buttons:
+    - Styled with a purple background (#6200ea) and white text.
+    - Includes padding, rounded corners, and a hover effect that changes the background to a darker purple (#3700b3).
+    - Adds a smooth transition effect for hover state changes.
+    - Positioned with margins for spacing between buttons.
+
+5. Buttons Container:
+    - Adds a margin at the top to separate buttons from other elements.
+
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .gallery-container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .gallery img {
+    width: 80%;
+    max-height: 400px;
+    border: 3px solid #555;
+    border-radius: 10px;
+    display: none; /* Hide all images by default */
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #6200ea;
+    color: white;
+    padding: 12px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #3700b3;
+  }
+  

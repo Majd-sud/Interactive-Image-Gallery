@@ -1,0 +1,49 @@
+<!-- 
+FILE: index.html
+DESCRIPTION: This HTML file creates an interactive image gallery with navigation buttons.
+STRUCTURE:
+1. DOCTYPE Declaration: Specifies the document type and version (HTML5).
+2. <html>: Root element of the HTML document with language set to English.
+3. <head>: Contains metadata and external resource links:
+    - Charset: UTF-8 for character encoding.
+    - Viewport: Ensures responsive design for different screen sizes.
+    - Title: Sets the title of the webpage as "Image Gallery".
+    - CSS Link: Links to an external stylesheet (gallery.css) for styling.
+    - jQuery: Includes the jQuery library for DOM manipulation and interactivity.
+4. <body>: Main content of the webpage:
+    - Gallery Container: A wrapper div for the gallery and navigation buttons.
+      - <h1>: Displays the title "Interactive Image Gallery".
+      - Gallery Section: Contains three images with descriptive alt attributes.
+      - Buttons Section: Includes "Previous" and "Next" buttons for navigation.
+5. External JavaScript: Links to an external script (gallery.js) for functionality.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="gallery.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+  <div class="gallery-container">
+    <h1>Interactive Image Gallery</h1>
+
+    <div class="gallery">
+      <img src="image1.jpg" class="gallery-image" alt="Description of image 1">
+      <img src="image2.jpg" class="gallery-image" alt="Description of image 2">
+      <img src="image3.jpg" class="gallery-image" alt="Description of image 3">
+    </div>
+
+    <div class="buttons">
+      <button id="prevBtn">Previous</button>
+      <button id="nextBtn">Next</button>
+    </div>
+  </div>
+
+  <script src="gallery.js"></script>
+</body>
+</html>
